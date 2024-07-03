@@ -5,7 +5,7 @@
     (() => {
       const code = location.pathname.split("/").filter(i => i !== "").reverse()[0];
       const base = "appZpbJa44TkE9Bew";
-      const read_only_api_key = "keyJs2secz3N4e6FT"
+      const read_only_api_key = "patOE5mEe6epcRHR5.e24fde5f62999bcd71306bebd6e2fe4533d7cfe36b15ce37718f84b6320fffd1"
       
       let request = new XMLHttpRequest();
           request.open("GET", `https://api.airtable.com/v0/${base}/Links?maxRecords=1&view=Grid%20view&filterByFormula=%7BCode%7D%3D'${code}'`, true);
